@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header {
+   text-align: center;
+    padding: 20px;
+    background-color: aqua;
+}
+
+
+.primero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Saludo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Saludo p {
+    text-align: center;
+}
+
+.besoMejilla {
+    height: 250px;
+}
+
+.besoNariz {
+    height: 250px;
+}
+
+footer {
+    text-align: center;
+    color: blueviolet;
+    background-color: black;
+}
