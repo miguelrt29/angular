@@ -8,7 +8,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly saludar = signal('SOY SALUDOSO');
+  protected readonly saludar = signal('SALUDOSO');
   protected readonly web = signal ('pagina');
   protected readonly saludo = signal ('saludos');
   protected readonly kiss = signal ('Beso o besos en la mejilla');
@@ -17,3 +17,6 @@ export class App {
   protected readonly manos = signal ('APRETÓN DE MANOS');
   protected readonly beso = signal ('Beso');
 }
+
+
+
