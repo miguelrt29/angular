@@ -14,4 +14,6 @@ export class App {
   protected readonly kiss = signal ('Beso o besos en la mejilla');
   protected readonly countries = signal ('paises');
   protected readonly marca = signal ('MIGUEL');
+  protected readonly manos = signal ('APRETÓN DE MANOS');
+  protected readonly beso = signal ('Beso');
 }
